@@ -1,0 +1,16 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"  applyBodyTag="false" applyHtmlTag="false">
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+</head>
+<body>
+    <form>
+      <input type="hidden" name="session" id="session" value="{! $Api.Session_ID }"/>
+    </form>
+    <!-- reactjs -->
+    <div id="app" />
+    <!--script src="{!URLFOR($Resource.index)}"/-->
+    <script src="http://localhost:7777/index.js"/>
+  </body>
+</html>
+</apex:page>

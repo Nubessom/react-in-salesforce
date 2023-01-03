@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>timurb@nubessom.com</contactEmail>
+    <label>exampleApp</label>
+    <oauthConfig>
+        <callbackUrl>https://fun-energy-5617-dev-ed--c.vf.force.com/resource/callback/callback.html</callbackUrl>
+        <consumerKey>3MVG9r_yMkYxwhkh3mrNZ9TMzJ306BPR7LCzfhPdKvvB0v0I7eD07oTPBF0ApFPA5QY9nqCAsLiO16XpPnxaj</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
